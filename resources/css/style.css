@@ -1,0 +1,29 @@
+
+body{
+
+}
+
+h1{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  padding: 1%;
+  margin: auto;
+  flex-wrap: nowrap;
+}
+.container1{
+  display:flex;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.top-list{
+ margin-left: 10px;
+ text-decoration: underline;
+ flex-wrap: nowrap;
+ }
+.headimage{
+  display: flex;
+  flex-grow: 1;
+}
