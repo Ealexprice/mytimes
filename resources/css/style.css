@@ -1,29 +1,34 @@
-
 body{
 
 }
 
-h1{
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color: MediumAquamarine;
-  padding: 1%;
-  margin: auto;
-  flex-wrap: nowrap;
-}
-.container1{
+
+header{
   display:flex;
-  flex-wrap: nowrap;
-  align-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+
 }
 
-.top-list{
+nav{
  margin-left: 10px;
- text-decoration: underline;
  flex-wrap: nowrap;
+ padding:10px;
+ margin: auto;
+ word-spacing: 25px
  }
-.headimage{
+
+.logo{
   display: flex;
   flex-grow: 1;
+  align-items: center;
+  color: MediumAquamarine;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+a, a:visited{
+     color: black;
 }
