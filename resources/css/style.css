@@ -1,5 +1,5 @@
 body{
-
+border: solid 2px black;
 }
 
 
@@ -31,4 +31,32 @@ nav{
 }
 a, a:visited{
      color: black;
+}
+.column.large {
+  width: 630px;
+  border: solid 1px black;
+  display: inline-flex;
+  flex-direction:column;
+
+}
+
+.column.medium {
+  width: 300px;
+  border: solid 3px black;
+
+}
+
+.column.small {
+  width: 240px;
+}
+p{
+  border: solid 1px black;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 50px;
+
+
 }
