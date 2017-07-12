@@ -31,13 +31,15 @@ a, a:visited{
 }
 main{
   display: flex;
-  border: solid;
+  /*border: solid;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: flex-start;
-  align-content: center;
-
-  padding: 50px;
+  align-content: center;*/
+  width: 1232px;
+  margin: 0 auto 78px;
+  padding-top: 116px;
+  justify-content: space-between;
 }
 .story{
   justify-content: center;
@@ -58,9 +60,9 @@ main{
   width: 100%;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
-
+  text-align: left;
 }
 .earth{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
@@ -70,13 +72,13 @@ main{
   font-weight: bold;
   font-size: 30px;
   color: white;
-
+ text-align: center;
 }
-.orca{
+/*.orca{
   font-weight: bold;
   font-family: Georgia;
   font-size: 40px;
-  color: black;
+  color: black;*/
 
 }
 .burger{
@@ -96,7 +98,7 @@ main{
   font-weight: bold;
   font-size: 30px;
   color: white;
-
+ text-align: center;
 }
 .column{
   display: flex;
@@ -113,7 +115,6 @@ main{
 .fbi{
   font-weight: bold;
   font-family: Georgia;
-  font-size: 20px;
   color: black;
 
 }
@@ -125,6 +126,7 @@ main{
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 
 }
 
@@ -143,6 +145,20 @@ main{
   height: 225px;
   width: 100%;
 }
-.column.articles{
-  flex-direction: row;
+.articles{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.large-left{
+  flex-direction: space-between;
+  justify-content: space-between
+}
+.large-right{
+  flex-direction: space-between;
+  justify-content: space-between;
+}
+h2{
+  font-weight: bold;
+  font-size: 25px;
 }
