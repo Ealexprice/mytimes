@@ -98,7 +98,7 @@ main{
   font-weight: bold;
   font-size: 30px;
   color: white;
- text-align: center;
+  text-align: center;
 }
 .column{
   display: flex;
@@ -161,4 +161,43 @@ main{
 h2{
   font-weight: bold;
   font-size: 25px;
+}
+footer{
+  justify-content: center;
+  display: flex;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  align-items: center;
+  /*font-size: 12px;
+  margin: auto;.*/
+  margin: 300px;
+  border: solid 1px black;
+  height: 300px;
+
+}
+.footer nav{
+
+  margin-left: 10px;
+  flex-wrap: nowrap;
+  font-weight: bold;
+  padding:10px;
+  margin: 30px 30px;
+  border-left: solid 4px white;
+/*justify-content: center;
+  margin: 300px;
+  align-items: center;*/
+}
+h3{
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ justify-content: center;
+}
+h4{
+  justify-content: center;
+  font-weight: lighter;
+}
+.footer.mytimes{
+  justify-content: center;
 }
